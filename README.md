@@ -76,18 +76,18 @@ error = abs((original - reconstructed) / original) * 100.0
 
 > Файли збережено у папці з міткою часу: `results_YYYYMMDD_HHMMSS`
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 20px;">
-  <img src="images/image.png" style="max-width: 80%;">
+<div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;">
+  <img src="images/image.png" style="max-width: 80%;"><br>
   <em>Рисунок 1: Результати у консолі</em>
-  
-  <img src="images/discretization_quantization.png" style="max-width: 80%;">
+  <br><br><br>
+  <img src="images/discretization_quantization.png" alt="Консоль" style="max-width: 80%;"><br>
   <em>Рисунок 2: Дискретизація та квантування</em>
-  
-  <img src="images/signal_reconstruction.png" style="max-width: 80%;">
+  <br><br><br>
+  <img src="images/signal_reconstruction.png" alt="Консоль" style="max-width: 80%;"><br>
   <em>Рисунок 3: Відновлення сигналу</em>
-  
-  <img src="images/error_calculation.png" style="max-width: 80%;">
-  <em>Рисунок 4: Розрахунок середньої відносної похибки</em>
+  <br><br><br>
+  <img src="images/error_calculation.png" alt="Консоль" style="max-width: 80%;"><br>
+  <em>Рисунок 4: Розразхунок середньої відносної похибки</em>
 </div>
 
 
