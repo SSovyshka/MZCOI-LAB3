@@ -76,5 +76,21 @@ error = abs((original - reconstructed) / original) * 100.0
 
 > Файли збережено у папці з міткою часу: `results_YYYYMMDD_HHMMSS`
 
+<div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;">
+  <img src="images/image.png" style="max-width: 80%;"><br>
+  <em>Рисунок 1: Результати у консолі</em>
+  <br><br><br>
+  <img src="images/discretization_quantization.png" alt="Консоль" style="max-width: 80%;"><br>
+  <em>Рисунок 2: Дискретизація та квантування</em>
+  <br><br><br>
+  <img src="images/signal_reconstruction.png" alt="Консоль" style="max-width: 80%;"><br>
+  <em>Рисунок 3: Відновлення сигналу</em>
+  <br><br><br>
+  <img src="images/error_calculation.png" alt="Консоль" style="max-width: 80%;"><br>
+  <em>Рисунок 4: Розразхунок середньої відносної похибки</em>
+</div>
+
+
+
 ## Висновки
 Під час виконання лабораторної роботи було вивчено процес квантування аналогового сигналу за рівнем. Програма реалізує чотири методи квантування (беззнакове урізання/округлення та знакове урізання/округлення), а також обчислює середню відносну похибку для кожного з них. Отримано графічні та числові результати, які дозволяють порівняти точність різних методів.
